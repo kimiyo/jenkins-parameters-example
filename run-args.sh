@@ -13,3 +13,4 @@ if [[  "$env" =~ ^(dev|st|sit|uat|preprod|prod) ]]; then
 else
    echo "$env is not in the environment list"
 fi
+
