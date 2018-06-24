@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "... Running ....."
+
 let "cnt=1"
 for arg in "$@"
 do
