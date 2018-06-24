@@ -14,5 +14,6 @@ if [[  "$env" =~ ^(dev|st|sit|uat|preprod|prod) ]]; then
    echo "$env is in the environment list"
 else
    echo "$env is not in the environment list"
+   exit -1
 fi
 
